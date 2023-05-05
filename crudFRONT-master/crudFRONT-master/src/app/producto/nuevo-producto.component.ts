@@ -17,7 +17,7 @@ export class NuevoProductoComponent implements OnInit {
   sexo = '';
   nivelEduacion = '';
   nacionalidad = '';
-  tiempo: number = null;
+ 
   constructor(
     private productoService: ProductoService,
     private toastr: ToastrService,
@@ -28,7 +28,7 @@ export class NuevoProductoComponent implements OnInit {
   }
 
   onCreate(): void {
-    const producto = new Producto(this.nombre,this.apellido,this.edad,this.sexo,this.nivelEduacion,this.nacionalidad,this.tiempo);
+    const producto = new Producto(this.nombre,this.apellido,this.edad,this.sexo,this.nivelEduacion,this.nacionalidad);
     this.productoService.save(producto).subscribe(
       data => {
         this.toastr.success('Producto Creado', 'OK', {

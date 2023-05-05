@@ -1,0 +1,7 @@
+ec\edu\ups\est\examen\dto\ClienteDto.class
+ec\edu\ups\est\examen\dto\Mensaje.class
+ec\edu\ups\est\examen\repository\ClienteRepository.class
+ec\edu\ups\est\examen\controller\ClienteController.class
+ec\edu\ups\est\examen\entity\Cliente.class
+ec\edu\ups\est\examen\ExamenApplication.class
+ec\edu\ups\est\examen\service\ClienteService.class

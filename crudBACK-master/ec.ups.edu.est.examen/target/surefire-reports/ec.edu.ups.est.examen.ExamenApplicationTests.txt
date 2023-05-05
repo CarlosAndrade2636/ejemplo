@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: ec.edu.ups.est.examen.ExamenApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.365 s <<< FAILURE! - in ec.edu.ups.est.examen.ExamenApplicationTests
+ec.edu.ups.est.examen.ExamenApplicationTests  Time elapsed: 0.363 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\59399\Documents\ejemplo\crudBACK-master\ec.ups.edu.est.examen\target\test-classes\ec\edu\ups\est\examen\ExamenApplicationTests.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\59399\Documents\ejemplo\crudBACK-master\ec.ups.edu.est.examen\target\test-classes\ec\edu\ups\est\examen\ExamenApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\59399\Documents\ejemplo\crudBACK-master\ec.ups.edu.est.examen\target\test-classes\ec\edu\ups\est\examen\ExamenApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 61
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
+

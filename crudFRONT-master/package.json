@@ -5,4 +5,5 @@
     "@angular/material": "^15.2.6",
     "ngx-toastr": "^16.1.0"
   }
+   
 }

@@ -18,7 +18,8 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": false,
+			"buildOptimizer": true,
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -117,5 +118,8 @@
         }
       }
     }},
-  "defaultProject": "crudFRONT"
+  "defaultProject": "crudFRONT",
+  "cli": {
+    "analytics": "21f7db7d-fb53-4ead-9e35-7fc9eade2d74"
+  }
 }
